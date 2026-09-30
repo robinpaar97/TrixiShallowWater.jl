@@ -66,7 +66,9 @@ abstract type AbstractMomentEquations{NDIMS, NVARS, NMOMENTS} <:
 include("moment_matrices.jl")
 
 include("shallow_water_linearized_moments_1d.jl")
+include("shallow_water_linearized_moments_2d.jl")
 include("shallow_water_moments_1d.jl")
+include("shallow_water_moments_2d.jl")
 
 """
     eachmoment(equations::AbstractMomentEquations)

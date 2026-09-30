@@ -27,7 +27,8 @@ export ShallowWaterEquations1D, ShallowWaterEquations2D,
        ShallowWaterTwoLayerEquations1D, ShallowWaterTwoLayerEquations2D,
        ShallowWaterMultiLayerEquations1D, ShallowWaterMultiLayerEquations2D,
        ShallowWaterEquationsQuasi1D,
-       ShallowWaterMomentEquations1D, ShallowWaterLinearizedMomentEquations1D,
+       ShallowWaterMomentEquations1D, ShallowWaterMomentEquations2D,
+       ShallowWaterLinearizedMomentEquations1D, ShallowWaterLinearizedMomentEquations2D,
        HyperbolicSainteMarieEquations1D
 
 export hydrostatic_reconstruction_chen_noelle, flux_nonconservative_chen_noelle,
