@@ -26,8 +26,7 @@ Shallow water linearized moment equations in two spatial dimensions. The equatio
 ```
 
 The unknown quantities are the water and sediment height ``h``, the two velocity components ``v1`` and ``v2`` as well as the moments
-``\alpha_i, \beta_i`` for ``i = 1, ..., n_{moments}``. The terms ``A_{ijk}`` and ``B_{ijk}`` are moment tensors that
-are precomputed using shifted Legendre polynomials and ``g`` is the gravitational acceleration.
+``\alpha_i, \beta_i`` for ``i = 1, ..., n_{moments}``. Additionally ``g`` is the gravitational acceleration.
 
 The conservative variable water height ``h`` is measured from the bottom topography ``b``, therefore
 one also defines the total water height as ``H = h + b``.
